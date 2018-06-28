@@ -192,8 +192,8 @@ Clear the content of the #app div in your HTML, and change `app.js` to the follo
 var app = document.querySelector('#app');
 
 var theLink = document.createElement('a');
-theLink.innerText = 'a link to DecodeMTL';
-theLink.setAttribute('href', 'http://www.decodemtl.com'); // This is how we set HTML attributes ;)
+theLink.innerText = 'a link to google';
+theLink.setAttribute('href', 'http://www.google.com'); // This is how we set HTML attributes ;)
 app.appendChild(theLink);
 
 theLink.addEventListener('click', function(event) {
@@ -211,7 +211,7 @@ Change the content of the #app div to the following:
 
 ```html
 <p id="theParagraph">
-  This is a <a id="theLink" href="http://www.decodemtl.com">link</a>!
+  This is a <a id="theLink" href="http://www.google.com">link</a>!
 </p>
 ```
 
